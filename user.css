@@ -11,6 +11,7 @@
    transform: scale(1.08);
 }
 .header{
+  font-family: "Roboto";
   font-weight: bold;
   background-color: rgba(91, 223, 39, 0.534);
   color: rgb(248, 245, 245);
@@ -38,12 +39,13 @@
   align-items: center;
 }
 .user-container{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.931);
   margin: 4rem;
   padding: 1rem;
   border-radius: 1rem;
   display: flex;
   gap: 1rem;
+  height: auto;
   transition: all 0.1s;
   min-width: 300px;
   max-width: 400px;
@@ -51,7 +53,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #d31681, #cd0091, #c200a4, #b100b9, #9500cf, #b500bf, #cd00b0, #df00a2, #fa2375, #fe564e, #f18032, #d9a32d);
+  background-image: linear-gradient(to right top, #d71684, #ce1399, #c01eaf, #a92fc5, #873fdb, #b232d4, #d620c9, #f400bc, #ff207e, #ff743f, #ffb700, #e1ee0b);
   min-height: 100vh;
   font-family: "Roboto";
   align-content: center;
@@ -68,17 +70,16 @@ body {
 .user-name {
   font-size: 1.4rem;
   font-family: "Pacifico", cursive;
-  margin-left: 3rem;
+  align-content: center;
+  text-align: center;
 }
 
 .user-container:hover {
   transform: scale(1.05);
-  background: rgba( 239, 85, 70, 0.45 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  background: rgba(196, 194, 207, 0.431);
   backdrop-filter: blur( 14px );
   -webkit-backdrop-filter: blur( 14px );
   border-radius: 10px;
-  border: 2px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -95,4 +96,8 @@ body {
 .edit-user-form {
   display: none;
   margin: 0.3rem;
+}
+
+.btn-primary{
+  margin-left: 20px;
 }
