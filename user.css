@@ -46,9 +46,8 @@
   display: flex;
   gap: 1rem;
   height: auto;
-  transition: all 0.1s;
-  min-width: 300px;
-  max-width: 400px;
+  transition: all 0.3s;
+  min-width: 400px;
   align-items: center;
 }
 
