@@ -1,0 +1,98 @@
+.add-user-name, .add-user-avatar{
+  border-radius: 8px;
+  border: 0px solid ;
+  text-align: center;
+  color: rgb(75, 70, 70);
+  display: inline;
+  background-color: rgba(29, 218, 205, 0.657);
+  height: 30px;
+}
+.add-user-name:hover,.add-user-avatar:hover{
+   transform: scale(1.08);
+}
+.header{
+  font-weight: bold;
+  background-color: rgba(91, 223, 39, 0.534);
+  color: rgb(248, 245, 245);
+  margin-left: 12rem;
+  border-top-left-radius: 9px ;
+  border-top-right-radius: 9px ;
+  margin-top: 2rem;
+  padding-top: 6px;
+  width: 200px;
+  text-align: center;
+  height: 40px;
+}
+
+.NewUser{
+  background-color: white;
+  margin-left:4rem;
+  margin-top: -1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.1s;
+  min-width: 300px;
+  max-width: 400px;
+  align-items: center;
+}
+.user-container{
+  background-color: white;
+  margin: 4rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.1s;
+  min-width: 300px;
+  max-width: 400px;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to right, #d31681, #cd0091, #c200a4, #b100b9, #9500cf, #b500bf, #cd00b0, #df00a2, #fa2375, #fe564e, #f18032, #d9a32d);
+  min-height: 100vh;
+  font-family: "Roboto";
+  align-content: center;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 1.4rem;
+  font-family: "Pacifico", cursive;
+  margin-left: 3rem;
+}
+
+.user-container:hover {
+  transform: scale(1.05);
+  background: rgba( 239, 85, 70, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.user-container:hover {
+  color: rgb(253, 246, 248);
+}
+
+.user.form {
+  margin:8rem;
+}
+
+.edit-user-form {
+  display: none;
+  margin: 0.3rem;
+}
